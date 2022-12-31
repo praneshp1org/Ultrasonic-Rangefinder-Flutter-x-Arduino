@@ -1,16 +1,15 @@
-# ultrasonic
+# Ultrasonic Rangefinder: Flutter x Arduino
 
-A new Flutter project.
+HC-SR04 Ultrasonic Distance Meter | Flutter With Arduino
 
-## Getting Started
+## Concept
 
-This project is a starting point for a Flutter application.
+The Arduino will take the raw data from the HC-SR04 ultrasonic module and convert it into measurement in centimeters and transmit the data to our android phone via the USB OTG.
 
-A few resources to get you started if this is your first Flutter project:
+Then our flutter app will receive the information from the Arduino and display it in radial gauge.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Components Used
+Arduino Uno and HC-SR04 Ultrasonic Module
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pub packages used in Flutter app
+usb_serial and syncfusion_flutter_gauges
