@@ -1,6 +1,6 @@
 # Ultrasonic Rangefinder: Flutter x Arduino
 
-HC-SR04 Ultrasonic Distance Meter | Flutter With Arduino hhh
+HC-SR04 Ultrasonic Distance Meter | Flutter With Arduino
 
 ## Concept
 
